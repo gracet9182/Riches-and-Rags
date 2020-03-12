@@ -1,0 +1,3565 @@
+{
+    "console": [],
+    "result": {
+        "passages": [
+            {
+                "Name": "Start",
+                "Pid": "1",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Congratulations on surviving high school and turning 18! Your parents have kicked you out of the house to use your room for storage. Now, it’s time to face the real word and make a living. To get a job, you must first meet all the requirements like education. Let’s see if you can beat the other competitors in the job market and survive. Don’t forget that it will cost you different amounts of coins to meet everyday necessities like food and a place to sleep.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Next\",\"Choose character\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Next\",\"Choose character\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Next",
+                                "text": "\"Next\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Choose character",
+                                "text": "\"Choose character\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Choose character",
+                "Pid": "2",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Choose between Black and White to select which fate awaits you.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Black\",\"Character introduction R\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Black\",\"Character introduction R\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Black",
+                                "text": "\"Black\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Character introduction R",
+                                "text": "\"Character introduction R\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"White\",\"Character introduction R\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"White\",\"Character introduction R\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "White",
+                                "text": "\"White\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Character introduction R",
+                                "text": "\"Character introduction R\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "Character introduction R",
+                "Pid": "3",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Your family has never had debt before. Today, they told you that they have decided to invest in you and gave you 700 coins to start you off. Can you survive 2 weeks?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Use the arrow keys to walk and the mouse to interact.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Hotel (1)",
+                "Pid": "4",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "It's getting pretty late, and you need shelter for the night. Now you can choose between staying at a nice and safe hotel for $50, staying at a sketchy motel for $20, and sleeping on the streets with a chance of being mugged and left to die.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "So... do you choose to",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Stay at the hotel\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Stay at the hotel\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Stay at the hotel",
+                                "text": "\"Stay at the hotel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ",",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Stay at the motel\",\"motel\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Stay at the motel\",\"motel\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Stay at the motel",
+                                "text": "\"Stay at the motel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel",
+                                "text": "\"motel\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "or",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Sleep on the streets\",\"streets\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Sleep on the streets\",\"streets\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Sleep on the streets",
+                                "text": "\"Sleep on the streets\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "streets",
+                                "text": "\"streets\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Hotel (2)",
+                "Pid": "5",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You survived one night, but you need a place to stay again tonight. Your options aren't permanent - how could they be, when you have no credit with the bank, much less a bank card?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Once again, you look through your options for tonight (hotel, motel, streets) but then you realize there's an event in the town tonight, and the police is extra vigilant. The streets aren't safe to sleep in. You could try, but it's very likely that you'd be caught. Everything is much more expensive due to the event. Hotel is $100, motel is $60, and the fine for sleeping out in the streets is a ghastly $250 (that is, if you get caught).",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you stay in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"hotel\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"hotel\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "hotel",
+                                "text": "\"hotel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"motel\",\"motel2\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"motel\",\"motel2\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "motel",
+                                "text": "\"motel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel2",
+                                "text": "\"motel2\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", or on the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"streets\",\"streets2\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"streets\",\"streets2\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "streets",
+                                "text": "\"streets\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "streets2",
+                                "text": "\"streets2\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Hotel (3)",
+                "Pid": "6",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You survived two nights, but you need a place to stay again tonight. Your options still aren't permanent, unfortunately.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Yet again, you look through your options for tonight (hotel, motel, streets). The event yesterday finally ended, and the town is pretty empty once more. Prices are down again, with the hotel being $50 and the motel at $20. Police is nowhere to be seen.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you want to stay in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"hotel\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"hotel\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "hotel",
+                                "text": "\"hotel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"motel\",\"motel3\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"motel\",\"motel3\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "motel",
+                                "text": "\"motel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel3",
+                                "text": "\"motel3\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", or on the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"streets\",\"streets3\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"streets\",\"streets3\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "streets",
+                                "text": "\"streets\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "streets3",
+                                "text": "\"streets3\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Supermarket (1)",
+                "Pid": "7",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You're getting hungry.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"spend $20 for food\",\"spend $20 for food\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"spend $20 for food\",\"spend $20 for food\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "spend $20 for food",
+                                "text": "\"spend $20 for food\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "spend $20 for food",
+                                "text": "\"spend $20 for food\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"starve for the night\",\"starve for the night\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"starve for the night\",\"starve for the night\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "starve for the night",
+                                "text": "\"starve for the night\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "starve for the night",
+                                "text": "\"starve for the night\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "safety",
+                "Pid": "8",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You're safe for the night. But how long will this safety last?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel",
+                "Pid": "9",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Someone knocks on your door in the middle of the night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"open the door\",\"motel open door\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"open the door\",\"motel open door\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "open the door",
+                                "text": "\"open the door\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel open door",
+                                "text": "\"motel open door\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Or will you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"pretend not to hear anything\",\"motel close door\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"pretend not to hear anything\",\"motel close door\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "pretend not to hear anything",
+                                "text": "\"pretend not to hear anything\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel close door",
+                                "text": "\"motel close door\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "streets",
+                "Pid": "10",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You find an empty doorway of a shop and plan on spending the night there. But just as you're about to set your meagre belongings down, someone else pushes past you and beats you to the spot.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"start a confrontation\",\"fight beggar\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"start a confrontation\",\"fight beggar\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "start a confrontation",
+                                "text": "\"start a confrontation\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "fight beggar",
+                                "text": "\"fight beggar\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", or do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"find another spot\",\"find somewhere else\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"find another spot\",\"find somewhere else\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "find another spot",
+                                "text": "\"find another spot\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "find somewhere else",
+                                "text": "\"find somewhere else\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel open door",
+                "Pid": "11",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "A heavily built man stands in your doorway. He is holding something in his fist, but you are unable to see what it is exactly. It looks sharp.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"politely ask him to leave\",\"motel close door\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"politely ask him to leave\",\"motel close door\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "politely ask him to leave",
+                                "text": "\"politely ask him to leave\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel close door",
+                                "text": "\"motel close door\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"shut the door in his face\",\"angry man\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"shut the door in his face\",\"angry man\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "shut the door in his face",
+                                "text": "\"shut the door in his face\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "angry man",
+                                "text": "\"angry man\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel close door",
+                "Pid": "12",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Footsteps echo along the hallway outside your door. Whoever was outside your door has left for now.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You keep the door tightly ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"shut\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"shut\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "shut",
+                                "text": "\"shut\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "angry man",
+                "Pid": "13",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You shut the door in his face without saying anything. He starts pounding angrily on the door, and all of a sudden the door breaks down.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "He comes for you. You finally see what he's holding in his hand. It's a short dagger.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "He holds you up by your throat. You can feel yourself ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"losing air\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"losing air\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "losing air",
+                                "text": "\"losing air\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "dead",
+                "Pid": "14",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You didn't manage to survive.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Restart\",\"Start\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Restart\",\"Start\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Restart",
+                                "text": "\"Restart\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "Start",
+                                "text": "\"Start\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "fight beggar",
+                "Pid": "15",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You start arguing with the other person about who got there first. The other person shakes their fist at you.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"throw a punch\",\"punch beggar\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"throw a punch\",\"punch beggar\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "throw a punch",
+                                "text": "\"throw a punch\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "punch beggar",
+                                "text": "\"punch beggar\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"retreat\",\"find somewhere else\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"retreat\",\"find somewhere else\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "retreat",
+                                "text": "\"retreat\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "find somewhere else",
+                                "text": "\"find somewhere else\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "find somewhere else",
+                "Pid": "16",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You find somewhere else. Thankfully, it is unclaimed, and you quickly claim it as your own and barricade it with scraps you find around you.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It seems like you're ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"safe\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"safe\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "safe",
+                                "text": "\"safe\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " for now.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "punch beggar",
+                "Pid": "17",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You throw a punch.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Land the hit\",\"beggar leaves\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Land the hit\",\"beggar leaves\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Land the hit",
+                                "text": "\"Land the hit\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "beggar leaves",
+                                "text": "\"beggar leaves\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"Miss\",\"beggar wins\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"Miss\",\"beggar wins\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "Miss",
+                                "text": "\"Miss\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "beggar wins",
+                                "text": "\"beggar wins\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "beggar leaves",
+                "Pid": "18",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You land the punch, and the other person takes one look at you and runs away, leaving their belongings behind.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "There is $20 inside their bag. You seem to be ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"safe\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"safe\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "safe",
+                                "text": "\"safe\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " for now.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "beggar wins",
+                "Pid": "19",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You miss the punch. The person punches you in the jaw, the eye and the throat. You feel yourself ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"losing conscious\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"losing conscious\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "losing conscious",
+                                "text": "\"losing conscious\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel2",
+                "Pid": "20",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You move into your motel room for the night. Unfortunately, since the rooms are so overbooked, you have to share your room with a stranger.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "When you get into your room, it's initially empty and you breathe a sigh of relief. However, this doesn't last long.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Halfway through the night, just as you are about to fall asleep, the door opens with a loud bang, and your... roommate saunters in drunkenly.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "At least, you hope it's your roommate.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"continue to sleep\",\"ignore roommate\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"continue to sleep\",\"ignore roommate\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "continue to sleep",
+                                "text": "\"continue to sleep\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "ignore roommate",
+                                "text": "\"ignore roommate\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"start a confrontation\",\"angry roommate\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"start a confrontation\",\"angry roommate\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "start a confrontation",
+                                "text": "\"start a confrontation\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "angry roommate",
+                                "text": "\"angry roommate\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "streets2",
+                "Pid": "21",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You chose to sleep on the streets. Very, very risky move indeed. Out of the corner of your eye, you can see multiple police officers patrolling the streets, occasionally finding people sleeping on the streets and taking those people away. ",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you choose to find a spot inside ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"the park\",\"sleep in park\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"the park\",\"sleep in park\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "the park",
+                                "text": "\"the park\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "sleep in park",
+                                "text": "\"sleep in park\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or in ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"an alley\",\"sleep in alley\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"an alley\",\"sleep in alley\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "an alley",
+                                "text": "\"an alley\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "sleep in alley",
+                                "text": "\"sleep in alley\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "sleep in park",
+                "Pid": "22",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You choose a secluded spot in the park to settle down for the night. Just as you lay down on your blankets, a wild dog appears from the darkness and starts growling menacingly at you.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"throw the dog whatever food you have\",\"angry dog\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"throw the dog whatever food you have\",\"angry dog\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "throw the dog whatever food you have",
+                                "text": "\"throw the dog whatever food you have\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "angry dog",
+                                "text": "\"angry dog\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"shout at the dog\",\"angry dog\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"shout at the dog\",\"angry dog\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "shout at the dog",
+                                "text": "\"shout at the dog\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "angry dog",
+                                "text": "\"angry dog\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "sleep in alley",
+                "Pid": "23",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to find a back alley to sleep inside for the night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Just as you bring your blankets over yourself, a bright light envelops you, and a microphone-enhanced voice tells you the police is taking you into custody, and you have to hand over a $250 fine to bail yourself out.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You're technically ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"safe\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"safe\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "safe",
+                                "text": "\"safe\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " for the night, but you're also $250 poorer.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "angry dog",
+                "Pid": "24",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "It doesn't work. The dog leaps towards you, and takes a good chunk out of your leg. With no meds, no money, and no-one to ask for help, you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"bleed out\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"bleed out\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "bleed out",
+                                "text": "\"bleed out\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "ignore roommate",
+                "Pid": "25",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You ignore the drunken roommate. Thankfully, they don't really do anything apart from singing loudly and falling into their bed, asleep.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You think you're pretty much ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"safe\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"safe\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "safe",
+                                "text": "\"safe\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " for now.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "angry roommate",
+                "Pid": "26",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You start being angry at your roommate for being loud. Punches are suddenly thrown. Your roommate overpowers you and suffocates you in your bed. Realizing what they've done, they run away in the night. You, on the other hand, aren't so ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"lucky\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"lucky\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "lucky",
+                                "text": "\"lucky\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel3",
+                "Pid": "27",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to stay in the motel for the night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "When you arrive in your room, you realize quickly that your door does NOT lock. Whilst this normally would not be an issue, you heard gunshots multiple times throughout the day in the general area of the motel.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"do nothing and hope for the best\",\"unlocked door\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"do nothing and hope for the best\",\"unlocked door\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "do nothing and hope for the best",
+                                "text": "\"do nothing and hope for the best\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "unlocked door",
+                                "text": "\"unlocked door\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"try to barricade the door with heavy objects\",\"barricaded door\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"try to barricade the door with heavy objects\",\"barricaded door\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "try to barricade the door with heavy objects",
+                                "text": "\"try to barricade the door with heavy objects\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "barricaded door",
+                                "text": "\"barricaded door\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "streets3",
+                "Pid": "28",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to stay on the streets for the night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "While you're deliberating where exactly to settle in, a street gang starts approaching you menacingly.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"run away\",\"find somewhere else\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"run away\",\"find somewhere else\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "run away",
+                                "text": "\"run away\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "find somewhere else",
+                                "text": "\"find somewhere else\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"stand your ground\",\"fight street gang\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"stand your ground\",\"fight street gang\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "stand your ground",
+                                "text": "\"stand your ground\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "fight street gang",
+                                "text": "\"fight street gang\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "fight street gang",
+                "Pid": "29",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to stand your ground against the approaching gang members.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "One of them cracks her knuckles and adopts a fighting stance. Another goes to the front and directly tells you to either give them all your money willingly or suffer.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"submit\",\"bye money\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"submit\",\"bye money\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "submit",
+                                "text": "\"submit\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "bye money",
+                                "text": "\"bye money\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"attempt to run\",\"fail and die\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"attempt to run\",\"fail and die\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "attempt to run",
+                                "text": "\"attempt to run\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "fail and die",
+                                "text": "\"fail and die\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "bye money",
+                "Pid": "30",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to surrender all of your cash to the gang.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "However, they do not leave you alone. They laugh derisively at the cash you just handed them - apparently, that is not enough to satisfy their leader's needs, so they give you a few hard kicks to the ribs for making them suffer their leader's wrath.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You hear a few bones crack. Breathing becomes hard... and you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"close your eyes\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"close your eyes\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "close your eyes",
+                                "text": "\"close your eyes\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "fail and die",
+                "Pid": "31",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You attempt to run, but they are faster and stronger. They catch you, but not before one gang member makes a cutthroat motion to another. That's the last thing you see before you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"black out\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"black out\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "black out",
+                                "text": "\"black out\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "unlocked door",
+                "Pid": "32",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "The door remains unlocked, and you go to sleep.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Halfway through the night, around 3 AM, a masked person comes in and fires five shots. Two of them pierce through your body. They then leave, and you are left to ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"bleed out\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"bleed out\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "bleed out",
+                                "text": "\"bleed out\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "barricaded door",
+                "Pid": "33",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You barricade the door to the best of your ability, and then you go to sleep.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Footsteps echo in the hallway all night, and you hear a couple of more gunshots, but no one manages to enter your room, ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"thankfully\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"thankfully\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "thankfully",
+                                "text": "\"thankfully\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Hotel (4)",
+                "Pid": "34",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You somehow managed to survive for three nights. You need a place to stay again tonight.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You look through your options for tonight (hotel, motel, streets). The town is eerily quiet tonight. Prices are at their lowest, with the hotel being $30 and the motel at $10. Police is, again, nowhere to be seen.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you want to stay in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"hotel\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"hotel\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "hotel",
+                                "text": "\"hotel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"motel\",\"motel4\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"motel\",\"motel4\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "motel",
+                                "text": "\"motel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel4",
+                                "text": "\"motel4\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", or on the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"streets\",\"streets4\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"streets\",\"streets4\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "streets",
+                                "text": "\"streets\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "streets4",
+                                "text": "\"streets4\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel4",
+                "Pid": "35",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to stay at the motel.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It IS pretty quiet tonight, and that's odd. The motel is usually bustling with activity, whether it be illicit or legal.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "It's almost... too quiet.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"double lock the doors\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"double lock the doors\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "double lock the doors",
+                                "text": "\"double lock the doors\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"stay up late to keep watch\",\"stay up late\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"stay up late to keep watch\",\"stay up late\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "stay up late to keep watch",
+                                "text": "\"stay up late to keep watch\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "stay up late",
+                                "text": "\"stay up late\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "streets4",
+                "Pid": "36",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to live on the streets. It's actually pretty ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"safe\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"safe\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "safe",
+                                "text": "\"safe\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " tonight. Seems like you got lucky.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "stay up late",
+                "Pid": "37",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to stay up late to keep watch.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "The silence is unnerving.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "All of a sudden, you hear a steady tap, tap that comes from the hallway.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You grab the nearest object to you, which is a...",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"lamp\",\"motel4 survive\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"lamp\",\"motel4 survive\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "lamp",
+                                "text": "\"lamp\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel4 survive",
+                                "text": "\"motel4 survive\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "innerText": "link-goto:\"pen\",\"motel4 dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"pen\",\"motel4 dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "pen",
+                                "text": "\"pen\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel4 dead",
+                                "text": "\"motel4 dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "motel4 survive",
+                "Pid": "38",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You pick up the lamp.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Someone barges into your room, and you immediately swing the lamp at them. They fall unconscious to the ground, and you run without thinking.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Survival is your priority.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "You live to see another ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"day\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"day\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "day",
+                                "text": "\"day\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel4 dead",
+                "Pid": "39",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You pick up the pen.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Someone barges into your room, giving you no time to react. Your pen falls to the ground.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Sketchy motels are sketchy for a reason.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "The lights go ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"out\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"out\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "out",
+                                "text": "\"out\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "Hotel (5)",
+                "Pid": "40",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You survived four nights.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "One more night, and you'll be able to stay with your friend, who will be coming back in town tomorrow.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Time to look through your options for tonight.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "For some reason, the town has become attractive to tourists overnight, and the accommodations in the town are once again experiencing price surges. One hotel room is $70 (ridiculous), and one motel room is $50 (even more ridiculous).",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Staying on the streets is risky, but you don't think the police will be patrolling again.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you want to stay in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"hotel\",\"safety\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"hotel\",\"safety\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "hotel",
+                                "text": "\"hotel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "safety",
+                                "text": "\"safety\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", in the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"motel\",\"motel5\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"motel\",\"motel5\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "motel",
+                                "text": "\"motel\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "motel5",
+                                "text": "\"motel5\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ", or on the ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"streets\",\"streets5\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"streets\",\"streets5\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "streets",
+                                "text": "\"streets\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "streets5",
+                                "text": "\"streets5\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "motel5",
+                "Pid": "41",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You choose to stay at the motel for your last night.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Somehow, the motel gets sketchier every single time you get there. How spooky.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you choose ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"the room on 4/F\",\"the room on 4/F\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"the room on 4/F\",\"the room on 4/F\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "the room on 4/F",
+                                "text": "\"the room on 4/F\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "the room on 4/F",
+                                "text": "\"the room on 4/F\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"the room on 13/F\",\"the room on 13/F\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"the room on 13/F\",\"the room on 13/F\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "the room on 13/F",
+                                "text": "\"the room on 13/F\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "the room on 13/F",
+                                "text": "\"the room on 13/F\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    }
+                ]
+            },
+            {
+                "Name": "streets5",
+                "Pid": "42",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You decide to sleep on the streets for your final day alone.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Once again, you have the choice between ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"the park\",\"sleep in park\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"the park\",\"sleep in park\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "the park",
+                                "text": "\"the park\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "sleep in park",
+                                "text": "\"sleep in park\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " and ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"the alley\",\"sleep in alley\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"the alley\",\"sleep in alley\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "the alley",
+                                "text": "\"the alley\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "sleep in alley",
+                                "text": "\"sleep in alley\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ". What do you choose?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "the room on 4/F",
+                "Pid": "43",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You chose the room on 4/F.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "The room smells musky, like sweat and unwashed clothing.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you spend the night ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"thinking about the future\",\"thinking about the future\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"thinking about the future\",\"thinking about the future\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "thinking about the future",
+                                "text": "\"thinking about the future\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "thinking about the future",
+                                "text": "\"thinking about the future\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"go straight to bed\",\"go straight to bed\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"go straight to bed\",\"go straight to bed\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "go straight to bed",
+                                "text": "\"go straight to bed\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "go straight to bed",
+                                "text": "\"go straight to bed\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "the room on 13/F",
+                "Pid": "44",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You chose the room on 13/F.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "The room smells overly sweet, like your aunt's perfume when she's drunk.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Do you spend the night ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"thinking about the future\",\"thinking about the future\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"thinking about the future\",\"thinking about the future\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "thinking about the future",
+                                "text": "\"thinking about the future\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "thinking about the future",
+                                "text": "\"thinking about the future\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": " or do you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"go straight to bed\",\"go straight to bed\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"go straight to bed\",\"go straight to bed\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "go straight to bed",
+                                "text": "\"go straight to bed\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "go straight to bed",
+                                "text": "\"go straight to bed\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": "?",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "thinking about the future",
+                "Pid": "45",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You spend quite some time thinking about your future.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Being kicked out of the house felt really bad, but you have high hopes for the future, especially now that you've survived 4.5 days.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "This hope carries you ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"through the night\",\"win game\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"through the night\",\"win game\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "through the night",
+                                "text": "\"through the night\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "win game",
+                                "text": "\"win game\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "go straight to bed",
+                "Pid": "46",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You go straight to bed, thinking about nothing in particular, but expecting to wake up to a brighter future.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "... Except, you don't wake up.",
+                        "type": "text"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "\n",
+                        "type": "br"
+                    },
+                    {
+                        "text": "Motels are sketchy, ",
+                        "type": "text"
+                    },
+                    {
+                        "innerText": "link-goto:\"after all\",\"dead\"",
+                        "name": "linkgoto",
+                        "text": "(link-goto:\"after all\",\"dead\")",
+                        "tokens": [
+                            {
+                                "text": "link-goto:",
+                                "type": "macroName"
+                            },
+                            {
+                                "innerText": "after all",
+                                "text": "\"after all\"",
+                                "type": "string"
+                            },
+                            {
+                                "text": ",",
+                                "type": "comma"
+                            },
+                            {
+                                "innerText": "dead",
+                                "text": "\"dead\"",
+                                "type": "string"
+                            }
+                        ],
+                        "type": "macro"
+                    },
+                    {
+                        "text": ".",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "win game",
+                "Pid": "47",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Congratulations, you have managed to survive all five days!",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "spend $20 for food",
+                "Pid": "48",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "Your belly fills up. It feels really, really nice to have food in your stomach again.",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "Name": "starve for the night",
+                "Pid": "49",
+                "Tags": "",
+                "Tokens": [
+                    {
+                        "text": "You starve for the night. You're getting weaker... and weaker.",
+                        "type": "text"
+                    }
+                ]
+            }
+        ],
+        "startPid": "1"
+    }
+}
