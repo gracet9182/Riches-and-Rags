@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 62494fcbcc35adf4695652b03aa7e38c
+  - enabled: 1
+    path: Assets/Scenes/Scene1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/lostallmoney.unity
+    guid: c19d8e5b619c49d4ca8e38272bda9f55
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Scene3.unity
+    guid: 58d38b220a8a259449bce67707507b62
+  - enabled: 1
+    path: Assets/Scenes/FindSomewhereElse(2) - Copy.unity
+    guid: 0edeff318731652439a539d82380383d
+  - enabled: 1
+    path: Assets/Scenes/unityStreets2.unity
+    guid: 556f5bc01b1b34cf39f7c73950efbf27
+  - enabled: 1
+    path: Assets/Scenes/unitySafety2.unity
+    guid: 7b25f7931fdfe40e497e4060bd4c333c
+  - enabled: 1
+    path: Assets/Scenes/hotel1.unity
+    guid: 8c0216f8206943341aa7b3eb91f4e46b
+  - enabled: 1
+    path: Assets/Scenes/IgnoreRoommate(2).unity
+    guid: 56d1152a151e146248883a2802731915
+  - enabled: 1
+    path: Assets/Scenes/IgnoreRoommate.unity
+    guid: 616282b3439b4487793310f04adfc9a2
+  - enabled: 1
+    path: Assets/Scenes/unityMotel2.unity
+    guid: b354f7a7373854b08b0a4eeb17b6fab4
+  - enabled: 1
+    path: Assets/Scenes/unityStreets1(2).unity
+    guid: c96aa32cfa0394263b230c0f6821af80
+  - enabled: 1
+    path: Assets/Scenes/Scene2.unity
+    guid: b8eb60b8c953ed6439765ea5ee70a412
+  - enabled: 1
+    path: Assets/Scenes/switch_characters.unity
+    guid: df60e58c4e3d1624bbeae5984ff54919
+  - enabled: 1
+    path: Assets/Scenes/Future.unity
+    guid: 06ab9153bff7c40c1ad2dd32b363ec08
+  - enabled: 1
+    path: Assets/Scenes/MotelOpenDoor(2).unity
+    guid: 8bc169139ca2e43118cfc23aee50b4af
+  - enabled: 1
+    path: Assets/Scenes/MotelOpenDoor.unity
+    guid: 7ac9e9d77255d4f3c8e0858d584ad789
+  - enabled: 1
+    path: Assets/Scenes/unityStreets2(2).unity
+    guid: 6b3ccc89a12d8496b8d92ac396937ace
+  - enabled: 1
+    path: Assets/Scenes/Future(2).unity
+    guid: f048aab7506a042c399c25daaa95fcd6
+  - enabled: 1
+    path: Assets/Scenes/unityStreets3.unity
+    guid: 6632c75f049b649eb986c8d8b6a04658
+  - enabled: 1
+    path: Assets/Scenes/unityStreets5(2).unity
+    guid: 9dbe75f888c5646c7bbb96b10adf16f6
+  - enabled: 1
+    path: Assets/Scenes/unityStreets3(2).unity
+    guid: 8a2dbb7a2eff549c296414bf56e0d909
+  - enabled: 1
+    path: Assets/Scenes/unityStreets5.unity
+    guid: c04c38781e1a5422191913231c0634f5
+  - enabled: 1
+    path: Assets/Scenes/unityStreets4(2).unity
+    guid: 2a6a2e8a9d678425cbcd69335683902e
+  - enabled: 1
+    path: Assets/Scenes/UnlockedDoor.unity
+    guid: d35060ca3ba354183b82b9f6460a44cb
+  - enabled: 1
+    path: Assets/Scenes/unityStreets4.unity
+    guid: 70c9c942a6eb04dbe9ad1cc703c485bd
+  - enabled: 1
+    path: Assets/Scenes/UnlockedDoor(2).unity
+    guid: bf384769562c146ddb51ad374f0f35a0
+  - enabled: 1
+    path: Assets/Scenes/MotelCloseDoor.unity
+    guid: 145e93211f9624481bf457600099bfe4
+  - enabled: 1
+    path: Assets/Scenes/unityMotel4(2).unity
+    guid: a7738d635a6604a6cacc9a7475e0bc6a
+  - enabled: 1
+    path: Assets/Scenes/MotelCloseDoor(2).unity
+    guid: 5c5da11a42b8a49b39097165872b0583
+  - enabled: 1
+    path: Assets/Scenes/unityhotel2(2).unity
+    guid: f8118bb88cb3540d9b63af514a9180e0
+  - enabled: 1
+    path: Assets/Scenes/unityhotel5(2).unity
+    guid: 38747c9ce02664783b1ed9fb8069d119
+  - enabled: 1
+    path: Assets/Scenes/unitySafety2(2).unity
+    guid: bdb211ec1549140d0addb46d0fec3109
+  - enabled: 1
+    path: Assets/Scenes/unityhotel5.unity
+    guid: ee336528a75c24385906e22fb8efc8ac
+  - enabled: 1
+    path: Assets/Scenes/unityMotel1.unity
+    guid: 0f89ff32a82144c1fbe748941315cee7
+  - enabled: 1
+    path: Assets/Scenes/unitySafety3(2).unity
+    guid: 7d3a6f3795dae4cdea346c17b45a81ba
+  - enabled: 1
+    path: Assets/Scenes/unityhotel2.unity
+    guid: bc258cb62ac084b458000b875f9d1dc5
+  - enabled: 1
+    path: Assets/Scenes/unityhotel1(2).unity
+    guid: 51c4edfc773d7442995d0999f7d2ea5e
+  - enabled: 1
+    path: Assets/Scenes/unityMotel1(2).unity
+    guid: 6aad284811cd442d4bfa39a39dc4e6c2
+  - enabled: 1
+    path: Assets/Scenes/unityhotel4.unity
+    guid: cdbd000f1f5ac49cc97718ecbb5d858e
+  - enabled: 1
+    path: Assets/Scenes/unityMotel3.unity
+    guid: 356a70bfeadab4563a0039d9d26d10c9
+  - enabled: 1
+    path: Assets/Scenes/unityhotel3.unity
+    guid: 22ad1a954195e42618bbabbe5abbf294
+  - enabled: 1
+    path: Assets/Scenes/hotel2.unity
+    guid: 9f3131984ebe8f44eae36cfa7b9c5c4c
+  - enabled: 1
+    path: Assets/Scenes/unityMotel2(2).unity
+    guid: 66eef746e4858488ca715ac0ea56708b
+  - enabled: 1
+    path: Assets/Scenes/unityMotel4.unity
+    guid: be7cd1b4e66c64abda0626099100c111
+  - enabled: 1
+    path: Assets/Scenes/unityMotel5.unity
+    guid: 41fc76dba08a341ea953a9d4f77b46df
+  - enabled: 1
+    path: Assets/Scenes/unityhotel4(2).unity
+    guid: ee12c88414fdf4ffe9d3bd3c3120db49
+  - enabled: 1
+    path: Assets/Scenes/unityMotel3(2).unity
+    guid: 1bcb7251e89224b0ab7b35b2224fe251
+  - enabled: 1
+    path: Assets/Scenes/hotel3.unity
+    guid: b074366403e6d6c4fb641d4072863853
+  - enabled: 1
+    path: Assets/Scenes/unitySafety4(2).unity
+    guid: 3ddd38707a1a248dcaf4c97ebf8885f4
+  - enabled: 1
+    path: Assets/Scenes/unityMotel5(2).unity
+    guid: 3216f1fca06a54296abc5d4f4fe32de6
+  - enabled: 1
+    path: Assets/Scenes/unitySafety4.unity
+    guid: 235d0e5982d694346840d33975e39ccd
+  - enabled: 1
+    path: Assets/Scenes/unitySafety3.unity
+    guid: f28a8952f55e345e486297a3fabb486a
+  - enabled: 1
+    path: Assets/Scenes/unitySafety(2).unity
+    guid: 441b46464ce694c92bec6706a046db3b
+  - enabled: 1
+    path: Assets/Scenes/unitySafety.unity
+    guid: 5deab43ca61874613a71451bdec69164
+  - enabled: 1
+    path: Assets/Scenes/Alley(2).unity
+    guid: 900b71437170d43a09b7dd991b1cae15
+  - enabled: 1
+    path: Assets/Scenes/AngryDog(2).unity
+    guid: cd1cf7732dd3d403ea8f8d96a75f19c4
+  - enabled: 1
+    path: Assets/Scenes/unityStreets1.unity
+    guid: c52b3843122cc4c12ad57e57ae1d7a70
+  - enabled: 1
+    path: Assets/Scenes/AngryDog.unity
+    guid: 2782c4b06e42d4d8bac28e0dc33d462d
+  - enabled: 1
+    path: Assets/Scenes/Room13.unity
+    guid: 14ac34cbe1ab3404285bd3d44d0f8aea
+  - enabled: 1
+    path: Assets/Scenes/Park.unity
+    guid: 7be11772cd41f4c37bb5a9e3e735c968
+  - enabled: 1
+    path: Assets/Scenes/Park(2).unity
+    guid: 26cd2c9184e9b40398395b84de48b1c6
+  - enabled: 1
+    path: Assets/Scenes/Room13(2).unity
+    guid: 388677a1e1104438ab57d4a49c16ea05
+  - enabled: 1
+    path: Assets/Scenes/PunchBeggar(2).unity
+    guid: bf7286a0a60274ce8b2710532d36e374
+  - enabled: 1
+    path: Assets/Scenes/PunchBeggar.unity
+    guid: bda58d30d8c7a46d3bb52ff5c11baa30
+  - enabled: 1
+    path: Assets/Scenes/AngryMan(2).unity
+    guid: cf201297fb8e24bfcbacc76468b4ec55
+  - enabled: 1
+    path: Assets/Scenes/StayUpLate.unity
+    guid: 089bca558fdef41de903f0059b097458
+  - enabled: 1
+    path: Assets/Scenes/Room4.unity
+    guid: f73d6637e84be4188ab2330766efa284
+  - enabled: 1
+    path: Assets/Scenes/AngryMan.unity
+    guid: 6e8b85fa72c7e45f992ca70f9a7a0d48
+  - enabled: 1
+    path: Assets/Scenes/AngryRoommate.unity
+    guid: 80394aa5387f94aa49f2b0c87fb6c397
+  - enabled: 1
+    path: Assets/Scenes/Alley.unity
+    guid: 1a7b874beabfd4210ab77d804d1f9267
+  - enabled: 1
+    path: Assets/Scenes/unityhotel1.unity
+    guid: a0d317491ef0643058fdcccc1641fc65
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/FindSomewhereElse.unity
+    guid: 32622c4ae81f743caa486cff0ff5a044
+  - enabled: 1
+    path: Assets/Scenes/AngryRoommate(2).unity
+    guid: 4025ac27d57404163bc33ca744411199
+  - enabled: 1
+    path: Assets/Scenes/FindSomewhereElse - Copy.unity
+    guid: 0406f18f9a552de418b7307450ce897b
+  - enabled: 1
+    path: Assets/Scenes/FightGang(2).unity
+    guid: 5f49e4caab606481c904e33ea40d0ee7
+  - enabled: 1
+    path: Assets/Scenes/FightBeggar(2).unity
+    guid: 9d8e8e1389efb4e74ab86d8174456d91
+  - enabled: 1
+    path: Assets/Scenes/FindSomewhereElse(2).unity
+    guid: 5e2c3def4d0b747418842d7de019dcee
+  - enabled: 1
+    path: Assets/Scenes/hotel1(2).unity
+    guid: a0da1044096ae464e8214538c3e86e14
+  - enabled: 1
+    path: Assets/Scenes/hotel2(2).unity
+    guid: 7d31b90d70671ca4a8bf499e6728c745
+  - enabled: 1
+    path: Assets/Scenes/Bed(2).unity
+    guid: 614af02700e384a9ab09e0dee86e3be0
+  - enabled: 1
+    path: Assets/Scenes/Bed.unity
+    guid: 9d904ef7a8a8d4979bfb1e30bd2b04f3
+  - enabled: 1
+    path: Assets/Scenes/finish.unity
+    guid: f0240fe2485b76a4ea2ea0324f05d857
+  - enabled: 1
+    path: Assets/Scenes/FightBeggar.unity
+    guid: 82943f9dbc4bb4290858249351c3db6e
+  - enabled: 1
+    path: Assets/Scenes/FightGang.unity
+    guid: 7ecc6c7cc1753475c907250a2332c454
+  - enabled: 1
+    path: Assets/Scenes/hotel3(2).unity
+    guid: 049f3a8678fb35e4d87ed7e5e8ddeb78
+  - enabled: 1
+    path: Assets/Scenes/hotel4(2).unity
+    guid: 46c92475bc60a98419cd3966242a0c09
+  - enabled: 1
+    path: Assets/Scenes/Scene1(2).unity
+    guid: 66aaf99f77b55ed48869dd8be26378d7
+  - enabled: 1
+    path: Assets/Scenes/Scene2(2).unity
+    guid: 4db4ad19f73617942a251d737797416e
+  - enabled: 1
+    path: Assets/Scenes/BarricadedRoom.unity
+    guid: 32a0f9ac7073941a68e721667a19c363
+  - enabled: 1
+    path: Assets/Scenes/BarricadedRoom(2).unity
+    guid: a0c0327233e6a475588839cf8f4161a7
+  - enabled: 1
+    path: Assets/Scenes/Scene3(2).unity
+    guid: 523b93d4459526b40838f92dc1131b07
+  - enabled: 1
+    path: Assets/Scenes/Scene4(2).unity
+    guid: 493b784247eeed942982781db30e47a8
+  - enabled: 1
+    path: Assets/Scenes/Scene5(2).unity
+    guid: 5b120360243c68b478673346caf671c3
+  - enabled: 1
+    path: Assets/Scenes/first_character(2).unity
+    guid: 3657ab3fef0049345832ce62b9dc8006
+  - enabled: 1
+    path: Assets/Scenes/hotel4.unity
+    guid: 863077766791caa44bdab46afff43db5
+  - enabled: 1
+    path: Assets/Scenes/hotel5.unity
+    guid: 292ca8c59ee47a64893b7c467f7c1cfa
+  - enabled: 1
+    path: Assets/Scenes/unityhotel3(2).unity
+    guid: 0a9ea10be27364fd58a10beaee7cff7b
+  - enabled: 1
+    path: Assets/Scenes/restart.unity
+    guid: 763430314b8b2e748ad5264707fed0cd
+  - enabled: 1
+    path: Assets/Scenes/Scene5.unity
+    guid: a01def5494078134d9250316e8ecd2e1
+  - enabled: 1
+    path: Assets/Scenes/Scene4.unity
+    guid: cf8c6a14f6b78844090a36fd666891d7
+  m_configObjects: {}
